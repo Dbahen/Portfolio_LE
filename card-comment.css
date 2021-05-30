@@ -1,0 +1,34 @@
+.card-comment {
+  margin: 40px 0 80px 0;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(39.7657px);
+  border-radius: 24px;
+  border: 3.98px solid
+    radial-gradient(
+      83.14% 78.52% at -12.32% -18.69%,
+      rgba(255, 255, 255, 0.75) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+}
+.comment-container {
+  padding: 24px;
+}
+.comment-container p {
+  font: var(--body1);
+  margin-bottom: 24px;
+
+  /* font-weight: normal; */
+  color: var(--purple);
+}
+.comment-container span {
+  font: var(--caption);
+  opacity: 0.5;
+}
+.profile-image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+.profile-image-container img {
+  display: inline-block;
+}

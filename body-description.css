@@ -1,0 +1,21 @@
+.body-description {
+  padding: 40px 0;
+  /* height: 481px; */
+  box-sizing: border-box;
+  text-align: center;
+  font: var(--headline5);
+}
+.body-description p {
+  margin: auto;
+  font-weight: 300;
+}
+.body-description span {
+  font: var(--headline5);
+  display: inline-block;
+  margin: 24px 0;
+}
+.button-arrow-down {
+  margin: 0 auto;
+  height: 80px;
+  width: 80px;
+}
