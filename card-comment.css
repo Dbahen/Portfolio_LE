@@ -1,7 +1,7 @@
 .card-comment {
   margin: 40px 0 80px 0;
   background: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(39.7657px);
+  backdrop-filter: blur(40px);
   border-radius: 24px;
   border: 3.98px solid
     radial-gradient(
@@ -9,12 +9,13 @@
       rgba(255, 255, 255, 0.75) 0%,
       rgba(255, 255, 255, 0) 100%
     );
+  box-shadow: 4px 4px 1px var(--white) inset;
 }
 .comment-container {
   padding: 24px;
 }
 .comment-container p {
-  font: var(--body1);
+  font: var(--headline5);
   margin-bottom: 24px;
 
   /* font-weight: normal; */
@@ -31,4 +32,21 @@
 }
 .profile-image-container img {
   display: inline-block;
+}
+@media screen and (min-width: 768px) {
+  .card-comment {
+    text-align: center;
+  }
+  .comment-container {
+    padding: 80px;
+  }
+  .comment-container p {
+    font: var(--headline4);
+  }
+  .comment-container span {
+    font: var(--headline5);
+  }
+  .profile-image-container img {
+    width: 80px;
+  }
 }

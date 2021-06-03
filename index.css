@@ -6,7 +6,11 @@
 @import "./menu.css";
 @import "./body-description.css";
 @import "./card-comment.css";
-@import "./testimony.css";
+@import "./project.css";
+@import "./social.css";
+@import "./footer.css";
+@import "./form.css";
+@import "./title.css";
 
 :root {
   --fontBase: "Poppins", sans-serif;
@@ -35,9 +39,5 @@ body {
   min-block-size: 100vh;
   font: var(--caption);
   color: var(--purple);
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
+  margin: 0;
 }
